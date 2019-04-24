@@ -1,0 +1,43 @@
+  @mixin v-center {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @mixin brd($width, $color) {
+    border: $width solid $color;
+  }
+  
+  
+  @mixin mobile {
+    @media (min-width: $mobile-width) {
+      @content;
+    }
+  }
+  
+  @mixin tablet {
+    @media (min-width: $tablet-width) {
+      @content;
+    }
+  }
+  
+  @mixin laptop {
+    @media (min-width: $laptop-width) {
+      @content;
+    }
+  }
+  
+  @mixin desktop {
+    @media (min-width: $desktop-width) {
+      @content;
+    }
+  }
+  
+  @mixin desktop_laptop {
+    @media (max-width: $desktop-width) and (min-width: $laptop-width) {
+      @content;
+    }
+  }
+  

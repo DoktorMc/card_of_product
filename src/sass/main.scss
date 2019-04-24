@@ -1,0 +1,22 @@
+// Basic page options
+@import "global/scaffolding";
+
+//normalize
+@import "global/normalize";
+
+// fonts
+@import "global/fonts";
+
+// vars
+@import "global/vars";
+
+// mixins
+@import "global/mixins";
+
+//ratin atars
+@import "global/rating_star";
+
+//index
+@import "blocks/index";
+@import "blocks/card_header";
+@import "blocks/card_body";

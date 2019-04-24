@@ -1,0 +1,158 @@
+.produсt__image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & img {
+    width: 95%;
+  }
+}
+
+.produсt__color-mode {
+  display: flex;
+	justify-content: flex-start;
+	margin-top: -10px;
+	margin-bottom: 0;
+}
+
+.color__link {
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+	margin-right: 5px;
+	padding: 1px;
+	border: solid 1px #ebebeb;
+	transition: 3ms;
+
+	& a{
+		height: 16px;
+  	width: 16px;
+  	border-radius: 4px;
+		display: block;
+	}
+
+	&:active{
+		border: solid 1px green;
+	}
+
+	&-active{
+		border: solid 1px green;
+
+		& a{
+		cursor: default;
+		}
+	}
+
+	&:hover{
+		border: solid 1px #cacaca;
+	}
+}
+
+.status__review{
+	display: flex;
+	justify-content: space-between;
+}
+
+.rate__amount{
+	margin-left: 5px;
+	font-size: 12px;
+	color: #9c9c9c;
+}
+
+.review{
+	
+}
+
+.review__link{
+	font-size: 12px;
+	text-decoration: underline;
+	color: #09ca09;
+
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+.review_icon{
+  vertical-align: -5px;
+}
+
+.product__id{
+	margin-top: -6px;
+	font-size: 10px;
+
+	& span{
+		color: #999999;
+	}
+}
+
+.availability{
+	color: #09ca09;
+	font-size: 12px;
+	& span{
+		display: inline-block;
+		margin-right: 2px;
+		height: 8px;
+		width: 8px;
+		border-radius: 4px;
+		background: #09ca09;
+	}
+}
+
+.product__description{
+	font-size: 14px;
+	line-height: 1;
+	margin-top: 2px;
+}
+
+.product__memory{
+	display: none;
+	margin-top: 5px;
+
+	& .memory__count{
+		font-size: 14px;
+		color: #09ca09;
+		border-bottom: dotted 2px  #09ca09;
+		margin-right: 10px;
+
+		&:hover{
+			border: none;
+			color: #000000;
+			background: #cfffc6;
+		}
+		&-active{
+			border: none;
+				color: #000000;
+				background: #cfffc6;
+		}
+	}
+}
+
+.co_program{
+	margin-top: 28px;
+	color: #F6731C ; 
+	font-size: 10px;
+}
+.price{
+	display: flex;
+	margin-top: -5px;
+}
+
+.old__price{
+	margin-right: 10px;
+	font-size: 14px;
+	color: #999999;
+	text-decoration: line-through;
+}
+
+.new__price{
+	font-size: 18px;
+	color: #F6731C;
+	font-weight: 600;
+}
+
+.saving{
+	font-size: 12px;
+	color: #09ca09;
+}
