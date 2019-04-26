@@ -1,3 +1,7 @@
-#icon{
+.icon{
     fill: #999999;
+    transition: 0.2s;
+    &:hover{
+        fill: #09ca09;
+    }
 }
