@@ -1,7 +1,15 @@
-.icon{
-    fill: #999999;
-    transition: 0.2s;
-    &:hover{
-        fill: #09ca09;
-    }
+.icon {
+  fill: #999999;
+  transition: 0.2s;
+  &:hover {
+    fill: #09ca09;
+  }
+}
+
+.card__product-header {
+  vertical-align: middle;
+  height: 20px;
+  & a {
+    display: inline-block;
+  }
 }
