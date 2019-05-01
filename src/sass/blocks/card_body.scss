@@ -56,6 +56,7 @@
 .status__review {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .rate__amount {
@@ -135,10 +136,12 @@
   margin-top: 28px;
   color: #f6731c;
   font-size: 10px;
+  line-height: 1;
 }
 .price {
   display: flex;
-  margin-top: -5px;
+  flex-wrap: wrap;
+  margin-top: 4px;
 }
 
 .old__price {
